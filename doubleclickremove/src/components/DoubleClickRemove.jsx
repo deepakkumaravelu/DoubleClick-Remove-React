@@ -3,18 +3,13 @@ import React from 'react'
 
 
 const DoubleClickRemove = () => {
-    const arr=[{nam:"hi"},{nam:"hello"},{nam:"vanakaam"}]
+  const numbers = [1, 2, 3, 4, 5];
   return (
-    <div>
-    
-    <ul>
-    {arr.map((val)=>{
-<li>{val.nam}</li>
-    })}
-    <li>hello</li>
-    </ul>
-    
-    </div>
+const listItems = numbers.map((number) =>
+  <li key={number.toString()}>
+    {number}
+  </li>
+);
   )
 }
 
