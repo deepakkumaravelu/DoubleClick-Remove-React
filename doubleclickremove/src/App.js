@@ -5,7 +5,7 @@ import DoubleClickRemove from './components/DoubleClickRemove';
 function App() {
   return (
     <div className="App">
-    <DoubleClickRemove/>
+    <center><DoubleClickRemove/></center>
     </div>
   );
 }
