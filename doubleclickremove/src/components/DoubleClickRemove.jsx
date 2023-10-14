@@ -10,7 +10,7 @@ export default function DoubleClick(){
             <ul class="lists">
                 {item.map(it=><li onClick={()=>{it.id=it.id+1; setitem(item.filter(f=>(f.id!==2)))}} >
                          
-                    {it.name}<br></br><p>Count:{it.id}</p></li>)}
+                    {it.name}</li>)}
             </ul>
 
         </div>
